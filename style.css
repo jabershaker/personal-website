@@ -35,13 +35,73 @@ p {
 .header {
     background-image: url("photo/header-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 section {
     height: 500px;
+    overflow: hidden;
     padding-bottom: 250px;
 }
-.biography {
+
+.biography-bg {
     background-image: url("photo/biography-bg.png");
     background-repeat: no-repeat;
-    background-size: 150%;
+    
 }
+.biography-text{
+    
+    text-align: center;
+    
+}
+.my-work {
+    background-image: url("photo/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.my-work-text {
+    text-align: center;
+}
+.work-images {
+    margin-left: 5%;
+    height: 400;  
+    
+}
+
+#work-images img {
+    float: left;
+    width: 380px;
+    height: auto;
+    margin-left: 3.75%;
+      
+}
+.client-feedback {
+    margin-top: 0px;
+}
+.client-feedback {
+    background-image: url("photo/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.client-text {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 350px;
+    padding:100px
+}
+.message-box {
+    width: 600px;
+    height: 150px;
+    background-image:linear-gradient(80deg,rgb(223, 103, 103), rgb(233, 44, 44));
+    border-radius: 10px;
+    padding:20px;
+    color: white;
+}
+h6 {
+    color: darkgray;
+}
+
+
