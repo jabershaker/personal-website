@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.my-name {
+    color: hsl(0, 92%, 64%) ;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    color: dimgray;
+}
+.link-button {
+    text-decoration: none;
+    background-color: hsl(0, 92%, 64%) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.header {
+    background-image: url("photo/header-bg.png");
+    background-repeat: no-repeat;
+}
+section {
+    height: 500px;
+    padding-bottom: 250px;
+}
+.biography {
+    background-image: url("photo/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
